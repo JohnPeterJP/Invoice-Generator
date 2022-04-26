@@ -1,0 +1,22 @@
+#Logo{
+  margin: 20px;
+}
+#addLogo {
+  width: fit-content;
+  position: absolute;
+}
+#LogoPic {
+  width: 80px;
+  height: 80px;
+}
+#trueLogoPic {
+  display: flex;
+}
+#trueLogoPic {
+  position: relative;
+  height: 100px;
+  left: 20px;
+  border-radius: 10px;
+  top: 20px;
+  
+}

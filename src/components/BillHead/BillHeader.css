@@ -1,0 +1,30 @@
+#parentdiv {
+  margin: 0px 50px 50px 50px;
+  background-color: white;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px ;
+}
+#shipingDetials {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#headerStyle {
+  margin: 0;
+  margin-bottom: 15px;
+  position: absolute;
+  left: 20px;
+}
+#shipingDetialsBilTxtfield {
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  background-color: #f4f3f8;
+}
+#shipingDetialsshipTo {
+ margin-left: 20px;
+}
+#shipingDetialsBillTo{
+  margin-right: 20px;
+}

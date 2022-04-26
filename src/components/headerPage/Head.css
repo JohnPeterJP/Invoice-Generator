@@ -1,0 +1,76 @@
+#parentDiv {
+  background-color: #19bd9b;
+  margin: 50px 50px 0px 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #f4f3f8;
+}
+/* #rightdiv {
+  position: absolute;
+  right: 0;
+} */
+#rightdiv {
+  margin: 20px;
+}
+#rightdivForm {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 10px;
+}
+#rightdivLableField {
+  border: 0;
+  background-color: #19bd9b;
+  margin-right: 10px;
+  color: #f4f3f8;
+  text-align: right;
+  border-radius: 5px;
+  /* outline:#F4F3F8 ; */
+}
+#rightdivLableField :focus:hover {
+  outline: #19bd9b;
+  border-color: #f4f3f8;
+}
+
+#inputField {
+  margin-left: 20px;
+  border-radius: 6px;
+  border: #19bd9b;
+  height: 30px;
+  text-align: center;
+  font-size: small;
+  outline: none;
+}
+#inputField :focus {
+  outline: none;
+  border-color: #19bd9b;
+}
+
+#header {
+  border: 0;
+  border-color: #19bd9b;
+  background-color: #19bd9b;
+  color: white;
+}
+#leftdivBillingSide {
+  margin: 20px;
+}
+#leftdivBillingSideInputfield {
+  border: #19bd9b;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+}
+.text-container {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.clearBtn {
+  position: absolute;
+  top: 5px;
+  right: 150px;
+  color: black;
+}

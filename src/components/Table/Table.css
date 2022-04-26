@@ -1,0 +1,89 @@
+#parentContainer {
+  margin: 20px;
+}
+
+.tablehead {
+  display: flex;
+  background-color: #242424;
+  border-radius: 5px;
+}
+
+.tabletr {
+  display: flex;
+}
+.tabletd{
+  margin: 10px 10px;
+  margin-left: 0px;
+}
+#thOtherLabels {
+  background-color: #242424;
+  border: 0;
+  width: 100%;
+  color: white;
+  height: 30px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#tbodyinputfields {
+  
+  /* position: relative; */
+  /* background-color: #f4f3f8; */
+  width: 100%;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#subTotal {
+  border: 0;
+  text-align: right;
+  margin-right: 20px;
+  font-size: medium;
+}
+.baseleft {
+  margin: 20px 20px 20px 0px;
+}
+.basediv {
+  display: flex;
+  /* padding-left: 20px; */
+}
+input,
+textarea {
+  border: none;
+}
+#Bottom {
+  background-color: #f4f3f8;
+  resize: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+td {
+  padding: 0;
+  margin: 0;
+}
+.leftarea {
+  display: flex;
+  flex-direction: column;
+}
+#notes {
+  padding-bottom: 10px;
+  font-size: medium;
+}
+.todel {
+  margin-left: 20%;
+  padding: 0px 3px 10px 30px;
+}
+#value,
+#Billdue {
+  width: 100%;
+}
+.showhiddenbtn{
+  display: flex;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+#Discountbtn,#taxbtn,#shippingbtn{
+  margin-left: 5px;
+}
